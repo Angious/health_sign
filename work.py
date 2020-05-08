@@ -83,34 +83,6 @@ class SignIn():
         return msg
 
 
-    # def test(self):
-    #     import requests
-    #     url = 'http://my.just.edu.cn/_web/fusionportal/ykt.jsp?'
-    #     headers = {
-    #         "Accept": "text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01",
-    #         "Accept-Encoding": "gzip, deflate",
-    #         "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
-    #         "Connection": "keep-alive",
-    #         "Cookie": "HttpOnly; route=a047fc801448915ba46aeaaf2e20a3ac; JSESSIONID=C7F588EA9C648E083066E7955E69C3E5; sudyLoginToken=expired; HttpOnly; iPlanetDirectoryPro=AQIC5wM2LY4SfczSFFDlGYE1DDrR9%2BssE4yJrAHJGFsgfXo%3D%40AAJTSQACMDE%3D%23; language=",
-    #         "Host": "my.just.edu.cn",
-    #         "Referer": "http://my.just.edu.cn/_s2/students_sy/main.psp",
-    #         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36",
-    #         "X-Requested-With": "XMLHttpRequest"
-    #     }
-    #     params = {
-    #         "_p": "YXM9MiZ0PTImZD0xMDEmcD0xJmY9MzAmbT1OJg__",
-    #         "timeStamp": "1586473542514",
-    #         "callback": "jQuery22306817913968799607_1586473541943",
-    #         "_": "1586473541944"
-    #     }
-    #     resp = requests.get(url, headers=headers, params=params)
-    #     yue = resp.text
-    #     data = yue[75:-104]
-    #     print(data)
-    #     return data
-    #     # print("您的余额是：",data,"元")
-
-
     def _get_yaml(self):
         """
         解析yaml
